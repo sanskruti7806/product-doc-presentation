@@ -1,0 +1,26 @@
+
+---
+
+## ✅ Step 3: Add a Custom Theme (`custom.css`)
+Create a file called **`custom.css`** in the repo:
+
+```css
+/* Custom Marp theme */
+@import 'default';
+
+section {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  color: #0055aa;
+}
+
+h2 {
+  color: #008844;
+}
+
+footer {
+  font-size: 0.7em;
+  color: #777;
+}
